@@ -37,12 +37,14 @@ public class CorrectProductPageDisplayed {
 
         String priceRegular1 = block.findElement(By.xpath(".//div[@class='price-wrapper']/s[@class='regular-price']")).getAttribute("textContent");
         String priceRegular1Color = block.findElement(By.xpath(".//div[@class='price-wrapper']/s[@class='regular-price']")).getCssValue("color");
-        String priceRegular1FontSize = block.findElement(By.xpath(".//div[@class='price-wrapper']/s[@class='regular-price']")).getCssValue("font-size");
+        String priceRegular1FontSizeStr = block.findElement(By.xpath(".//div[@class='price-wrapper']/s[@class='regular-price']")).getCssValue("font-size").replaceAll("px","");
+        double priceRegular1FontSize = Double.parseDouble(priceRegular1FontSizeStr);
         String priceRegular1CrossedOut = block.findElement(By.xpath(".//div[@class='price-wrapper']/s[@class='regular-price']")).getCssValue("text-decoration");
 
         String priceCampaign1 = block.findElement(By.xpath(".//strong[@class='campaign-price']")).getAttribute("textContent");
         String priceCampaign1Color = block.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("color");
-        String priceCampaign1FontSize = block.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("font-size");
+        String priceCampaign1FontSizeStr = block.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("font-size").replaceAll("px","");
+        double priceCampaign1FontSize = Double.parseDouble(priceCampaign1FontSizeStr);
         String priceCampaign1FontWeight = block.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("font-weight");
 
         //Click on product page, get its name, prices and styles of prices
@@ -52,12 +54,14 @@ public class CorrectProductPageDisplayed {
 
         String priceRegular2 = driver.findElement(By.xpath("//div[@id='box-product']//s[@class='regular-price']")).getAttribute("textContent");
         String priceRegular2Color = driver.findElement(By.xpath("//div[@id='box-product']//s[@class='regular-price']")).getCssValue("color");
-        String priceRegular2FontSize = driver.findElement(By.xpath("//div[@id='box-product']//s[@class='regular-price']")).getCssValue("font-size");
+        String priceRegular2FontSizeStr = driver.findElement(By.xpath("//div[@id='box-product']//s[@class='regular-price']")).getCssValue("font-size").replaceAll("px","");
+        double priceRegular2FontSize = Double.parseDouble(priceRegular2FontSizeStr);
         String priceRegular2CrossedOut = driver.findElement(By.xpath("//div[@id='box-product']//s[@class='regular-price']")).getCssValue("text-decoration");
 
         String priceCampaign2 = driver.findElement(By.xpath(".//strong[@class='campaign-price']")).getAttribute("textContent");
         String priceCampaign2Color = driver.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("color");
-        String priceCampaign2FontSize = driver.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("font-size");
+        String priceCampaign2FontSizeStr = driver.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("font-size").replaceAll("px","");
+        double priceCampaign2FontSize = Double.parseDouble(priceCampaign2FontSizeStr);
         String priceCampaign2FontWeight = driver.findElement(By.xpath(".//strong[@class='campaign-price']")).getCssValue("font-weight");
 
 /*        System.out.println(priceRegular1 +" "+ priceRegular2);
@@ -70,16 +74,26 @@ public class CorrectProductPageDisplayed {
         System.out.println(priceCampaign1FontSize +" "+ priceCampaign2FontSize);
         System.out.println(priceCampaign1FontWeight +" "+ priceCampaign2FontWeight);*/
 
-        assertTrue(name1.equals(name2)
-                                && priceRegular1.equals(priceRegular2)
-                                && priceCampaign1.equals(priceCampaign2)
-                                && priceRegular1Color.equals(priceRegular2Color)
-                                && priceRegular1FontSize.equals(priceRegular2FontSize)
-                                && priceRegular1CrossedOut.equals(priceRegular2CrossedOut)
-                                && priceCampaign1Color.equals(priceCampaign2Color)
-                                && priceCampaign1FontSize.equals(priceCampaign2FontSize)
-                                && priceCampaign1FontWeight.equals(priceCampaign2FontWeight)
-        );
+        //Global asserts
+        assertTrue(name1.equals(name2));
+        assertTrue(priceRegular1.equals(priceRegular2));
+        assertTrue(priceCampaign1.equals(priceCampaign2));
+
+        //Main page asserts
+        assertTrue(priceRegular1Color.equals("rgba(119, 119, 119, 1)"));
+        assertTrue(priceCampaign1FontSize > priceRegular1FontSize);
+        assertTrue(priceRegular1CrossedOut.equals("line-through"));
+
+        assertTrue(priceCampaign1Color.equals("rgba(204, 0, 0, 1)"));
+        assertTrue(priceCampaign1FontWeight.equals("bold"));
+
+        //Product page asserts
+        assertTrue(priceRegular2Color.equals("rgba(102, 102, 102, 1)"));
+        assertTrue(priceCampaign2FontSize > priceRegular2FontSize);
+        assertTrue(priceRegular2CrossedOut.equals("line-through"));
+
+        assertTrue(priceCampaign2Color.equals("rgba(204, 0, 0, 1)"));
+        assertTrue(priceCampaign2FontWeight.equals("bold"));
     }
 
     @After

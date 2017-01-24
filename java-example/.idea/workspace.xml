@@ -87,8 +87,8 @@
       <file leaf-file-name="CorrectProductPageDisplayed.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CorrectProductPageDisplayed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="1275">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -830,34 +830,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClickItems - 2017.01.23 at 19h 04m 10s.xml">
-      <configuration name="ClickItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClickItems - 2017.01.23 at 19h 06m 02s.xml">
-      <configuration name="ClickItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClickItems - 2017.01.23 at 19h 20m 07s.xml">
-      <configuration name="ClickItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 18h 20m 54s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 36m 31s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 19h 00m 26s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 36m 59s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 19h 01m 24s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 39m 44s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 19h 01m 52s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 43m 58s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 19h 24m 31s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 48m 13s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 19h 24m 52s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 50m 04s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectProductPageDisplayed - 2017.01.23 at 19h 25m 13s.xml">
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 54m 11s.xml">
+      <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 21h 54m 32s.xml">
+      <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 22h 01m 51s.xml">
+      <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorrectProductPageDisplayed - 2017.01.24 at 22h 03m 49s.xml">
       <configuration name="CorrectProductPageDisplayed" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -875,13 +875,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38801262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30914825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20204978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15153733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1244,8 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CorrectProductPageDisplayed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
